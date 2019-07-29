@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login认证</title>
+    <script type="text/javascript" src="http://res.wx.qq.com/connect/zh_CN/htmledition/js/wxLogin.js"></script>
+    <!--引用微信JS库-->
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <!--引用jQuery库-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+</head>
+<body>
+
+<script>
+    var obj = new WxLogin({
+        self_redirect: true,
+        id: "login_container",
+        appid: "wx6153699bbd6af4bf",
+        scope: "snsapi_login",
+        redirect_uri: "",
+        state: "",
+        style: "",
+        href: ""
+    });
+</script>
+
+</body>
+</html>
